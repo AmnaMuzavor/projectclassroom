@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    /* background-color: rgb(141, 44, 231); */
+    /* background:linear-gradient(to right,#e2e2e2,#c9d6c9); */
+    background:linear-gradient(to right,#e2e2e2,#455763);
+
+}
+.form-box{
+    /* background-color: rgb(141, 44, 231); */
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 500px;
+   margin: auto;
+   margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 0  0   30px rgb(70, 66, 75);
+    /* color:white; */
+    
+
+   
+}
+.image { 
+    width: 401px;
+    height: 503px;
+    border-radius: 53px 19px 22px 53px ;
+}
+.form{
+    
+        background-color: white;
+        border-radius: 10px;
+        width: 256px;
+        height: 262px;
+        margin: auto;
+    
+
+
+}
+.from input{
+    display: flex;
+    margin:auto ;
+}
+.form-content {
+    /* margin: 5px; */
+   /* background-color: blueviolet; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+h2{
+    text-align: center;
+   
+    color: #455763;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+input{
+    width: 106%;
+    padding: 7px;
+    background-color: #e6dfe9;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 9px;
+    color: #000;
+}
+.btn{
+    width: 50%;
+    /* background: blueviolet; */
+    background: #455763;
+    padding: 7px;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+    margin-top: -12px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+
+}
+.btn:hover{
+    /* background-color: rgb(96, 75, 116); */
+    transform: scale(1.05);
+}
+p{
+    margin-top: 11px;
+    font-size: medium;
+}
+p a{
+    /* color: blueviolet; */
+    color: #455763;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: solid;
+}
+@media(max-width :768px){
+    .form-box{
+        /* background-color: rgb(141, 44, 231); */
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 359px;
+       margin: auto;
+       margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+       
+        align-items: center;
+        flex-direction: row;
+        border-radius: 20px;
+        box-shadow: 0  0   30px rgb(70, 66, 75);
+        /* color:white; */
+        
+    
+       
+    }
+    .image { 
+        display: none;
+    }
+
+}
