@@ -1,0 +1,113 @@
+.navbar-brand{
+    font-weight: 500;
+    color:white;
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: #455763;
+    /* background-color: blueviolet; */
+    border-radius: 16px;
+   height: 80px;
+   margin: 20px;
+}
+
+.login-button{
+    background-color: white;
+    color: #455763;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.login-button:hover{
+    background-color: #e4caa4;
+    color: white;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus , .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color:white;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:#e4caa4;
+    text-decoration: underline;
+}
+
+.welcome .card{
+   
+    /* position: relative; */
+    background-color: #e4caa4;
+    position: relative;
+    top: 100px;
+    right: -24px;
+    border-radius: 14px;
+    width: 1166px;
+    height: 171px;
+    margin-top: -28px;
+}
+h2{
+    /* margin-top: 121px; */
+    margin: 50px;
+    color:#455763;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* align-content: space-around; */
+
+    /* border: 2px solid black; */
+    margin: 0px 0px 10px 96px;
+    
+}
+.welcome .card-title{
+    color:#455763;
+}
+.welcome .card-text{
+    color: #455763;
+    font-size: 29px;
+}
+.container .card{
+    background-color: #f4f4f4;
+    margin: 10px;
+    /* width: 80px; */
+    /* right: 0px;
+    position: absolute; */
+}
+
+.btn{
+    background-color: #455763;
+    color:#f4f4f4;
+    padding: 6px;
+    border: none;
+    margin: auto;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #455763;
+    color: white;
+}
+.card-title{
+    color: #455763;
+    
+}
+ .card p{
+    font-size: 20px;
+    color:#e4caa4;
+    /* color: yellow; */
+    /* text-align: center; */
+  
+ }
+
